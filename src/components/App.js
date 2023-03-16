@@ -1,11 +1,13 @@
 
 import React from "react";
 import './../styles/App.css';
+import Counter from "./Counter";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
         {/* Do not remove the main div */}
+        <Counter/>
     </div>
   )
 }
